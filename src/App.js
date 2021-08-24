@@ -76,7 +76,15 @@ function App() {
         </div>
         <Button>Все услуги</Button>
       </section>
-      <section className="standarts"></section>
+      <section className="standarts">
+        <div className="standart_content">
+          <div className="border_block">
+            <div>left</div>
+            <div>right</div>
+          </div>
+          <div className="standarts_icon"></div>
+        </div>
+      </section>
       <section className="specialist"></section>
       <section className="projects"></section>
       <section className="video"></section>
