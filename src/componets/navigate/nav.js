@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Header = styled.header`
   height: 100px;
@@ -32,7 +32,7 @@ const A = styled.a`
   color: #999;
   margin-bottom: 2px solid transparent;
 
-  &:hover {
+  :hover {
     margin-bottom: 2px solid #000;
   }
 `;
