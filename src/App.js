@@ -8,6 +8,7 @@ import Group from './images/Group.png';
 import Web from './images/web-programming.png';
 import Recta from './images/Rectangle 2.png';
 import Specialist from './images/Rectangle 2.1.png';
+import Projects from './images/Rectangle 2.3.png';
 
 function App() {
   return (
@@ -180,7 +181,26 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="projects"></section>
+      <section className="projects">
+        <div className="projects_main">
+          <div className="projects_heading">
+            <Heading_h2 primary>Наши проекты</Heading_h2>
+            <p className="projects_description">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem
+              <br /> Ipsum является стандартной "рыбой" для текстов на латинице
+              с начала XVI века.
+            </p>
+          </div>
+          <div className="projects_img">
+            <img src={Projects}></img>
+            <img src={Projects}></img>
+            <img src={Projects}></img>
+            <img src={Projects}></img>
+          </div>
+          <Button>Все проекты</Button>
+        </div>
+      </section>
       <section className="video"></section>
       <footer className="main_footer"></footer>
     </>

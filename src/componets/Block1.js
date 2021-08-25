@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from './button/button';
-// import Rectangle from '../images/Rectangle.png';
+import Rectangle from '../images/Rectangle.png';
 
 const Section = styled.section`
   background-image: url(/static/media/Rectangle.afd562e8.png);
