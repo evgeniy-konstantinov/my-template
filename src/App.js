@@ -9,6 +9,10 @@ import Web from './images/web-programming.png';
 import Recta from './images/Rectangle 2.png';
 import Specialist from './images/Rectangle 2.1.png';
 import Projects from './images/Rectangle 2.3.png';
+import Call from './images/call.png';
+import List from './images/envelope.png';
+import Envel from './images/placeholder.png';
+import Vector from './images/Vector.png';
 
 function App() {
   return (
@@ -202,7 +206,117 @@ function App() {
         </div>
       </section>
       <section className="video"></section>
-      <footer className="main_footer"></footer>
+      <footer className="main_footer">
+        <div className="footer_block">
+          <div className="footer_border">
+            <div className="contact_info">
+              <h3 className="footer_heading">Контактная информация</h3>
+              <div className="contact_mail">
+                <img src={List} />
+                <a href="/" className="footer_mail">
+                  test@test.ru
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Call} />
+                <a href="/" className="footer_mail">
+                  +8 777 555 66 99
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Envel} />
+                <a href="/" className="footer_mail">
+                  Москва, Бульвар Ленина 33
+                </a>
+              </div>
+            </div>
+            <div className="contact_info">
+              <h3 className="footer_heading">Основные ссылки</h3>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Главная
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Наши проекты
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Наши услуги
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Контакты
+                </a>
+              </div>
+            </div>
+            <div className="contact_info">
+              <h3 className="footer_heading">Наши проекты</h3>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  РосНано
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Сколково
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Проект “Восток”
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  ТЭЦ Калининграда
+                </a>
+              </div>
+            </div>
+            <div className="contact_info">
+              <h3 className="footer_heading">Социальные сети</h3>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  VK.com
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Instagram
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Facebook
+                </a>
+              </div>
+              <div className="contact_mail">
+                <img src={Vector} />
+                <a href="/" className="footer_mail">
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="footer_copyright">
+            <p className="copyright">(с) 2019. Все права защищены.</p>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
