@@ -13,6 +13,9 @@ import Call from './images/call.png';
 import List from './images/envelope.png';
 import Envel from './images/placeholder.png';
 import Vector from './images/Vector.png';
+import Video from './images/video.png';
+import Video2 from './images/video2.png';
+import Video_btn from './images/play-button.png';
 
 function App() {
   return (
@@ -205,7 +208,37 @@ function App() {
           <Button>Все проекты</Button>
         </div>
       </section>
-      <section className="video"></section>
+      <section className="video">
+        <div className="main_video">
+          <div className="border_video">
+            <Heading_h2>Видео о нашей работе</Heading_h2>
+            <p className="text_video">Просто посмотрите, как мы работаем</p>
+            <div className="block_video">
+              <button className="button_video">
+                <img src={Video_btn} className="icon_video" />
+                Смотреть видео
+              </button>
+            </div>
+          </div>
+          <div className="subscription_video">
+            <h3 className="sup_heading_video">Подпишитесь на нашу рассылку</h3>
+            <p className="sub_text_video">
+              Полезные статьи, акции, новости - получите все это сейчас!
+            </p>
+            <form>
+              <input
+                type="email"
+                placeholder="       Ваш e-mail"
+                className="email_input"
+              ></input>
+              <button className="btn">Подписаться</button>
+            </form>
+            <p className="sup_text_video">
+              Мы не шлем спам, и передаем никому ваши данные.
+            </p>
+          </div>
+        </div>
+      </section>
       <footer className="main_footer">
         <div className="footer_block">
           <div className="footer_border">

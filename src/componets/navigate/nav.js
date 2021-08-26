@@ -29,11 +29,15 @@ const A = styled.a`
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  color: #999;
+  color: #dcdcdc;
   margin-bottom: 2px solid transparent;
 
+  :last-child {
+    margin-right: 0;
+  }
+
   :hover {
-    margin-bottom: 2px solid #000;
+    border-bottom: 2px solid #dcdcdc;
   }
 `;
 

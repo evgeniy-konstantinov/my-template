@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Button = styled.button`
   width: 200px;
@@ -10,6 +10,7 @@ const Button = styled.button`
   font-size: 16px;
   color: white;
   border: none;
+  cursor: pointer;
 `;
 
 export default Button;
