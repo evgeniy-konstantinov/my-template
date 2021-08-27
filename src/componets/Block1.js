@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './button/button';
 
 const Section = styled.section`
-  background-image: url(${props => props.background});
+  background-image: url('/my-template/${props => props.background}');
 
   height: 900px;
   display: flex;
