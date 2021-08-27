@@ -5,7 +5,7 @@ import Rectangle from '../images/Rectangle.png';
 console.log(Rectangle);
 
 const Section = styled.section`
-  background-image: url('../my-template/images/Rectangle.png');
+  background-image: url('my-template/images/Rectangle.png');
 
   height: 900px;
   display: flex;
