@@ -4,7 +4,7 @@ import Button from './button/button';
 import Rectangle from '../images/Rectangle.png';
 
 const Section = styled.section`
-  background-image: url(`${Rectangle}`);
+  background-image: url(${Rectangle});
 
   height: 900px;
   display: flex;
