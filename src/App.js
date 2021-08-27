@@ -268,7 +268,7 @@ function App() {
               <h3 className="footer_heading">Основные ссылки</h3>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="#home" className="footer_mail">
                   Главная
                 </a>
               </div>

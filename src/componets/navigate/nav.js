@@ -47,7 +47,7 @@ export default function Navigate() {
     <Header>
       <Div>
         <Nav>
-          <A href="/">Главная</A>
+          <A href="#home">Главная</A>
           <A href="#our_projects">Наши проекты</A>
           <A href="#our_app">Услуги</A>
           <A href="#our_video">Новости</A>

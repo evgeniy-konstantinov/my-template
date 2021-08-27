@@ -34,7 +34,7 @@ const Div = styled.div`
 `;
 export default function Block1() {
   return (
-    <Section>
+    <Section id="home">
       <Div>
         <P>Передовая IT студия</P>
         <H1>Мы создаем легкие решения сложных задач и проблем</H1>
