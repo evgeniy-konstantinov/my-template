@@ -16,12 +16,13 @@ import Vector from './images/Vector.png';
 import Video from './images/video.png';
 import Video2 from './images/video2.png';
 import Video_btn from './images/play-button.png';
+import Rectangle from './images/Rectangle.png';
 
 function App() {
   return (
     <>
       <Navigate />
-      <Block1></Block1>
+      <Block1 background={Rectangle}></Block1>
 
       <section className="create_mobile_app">
         <div className="content_create_app">
