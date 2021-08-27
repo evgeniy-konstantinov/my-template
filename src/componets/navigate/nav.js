@@ -11,7 +11,8 @@ const Header = styled.header`
   position: fixed;
   left: 0;
   top: 0;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   backdrop-filter: blur(3px);
 `;
 const Div = styled.div`
@@ -47,10 +48,10 @@ export default function Navigate() {
       <Div>
         <Nav>
           <A href="/">Главная</A>
-          <A href="/">Наши проекты</A>
-          <A href="/">Услуги</A>
-          <A href="/">Новости</A>
-          <A href="/">Контакты</A>
+          <A href="#our_projects">Наши проекты</A>
+          <A href="#our_app">Услуги</A>
+          <A href="#our_video">Новости</A>
+          <A href="#our_contact">Контакты</A>
         </Nav>
       </Div>
     </Header>

@@ -23,7 +23,7 @@ function App() {
       <Navigate />
       <Block1></Block1>
 
-      <section className="create_mobile_app">
+      <section className="create_mobile_app" id="our_app">
         <div className="content_create_app">
           <Heading_h2 primary center>
             Мы создаем мобильные приложения
@@ -188,7 +188,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="projects">
+      <section className="projects" id="our_projects">
         <div className="projects_main">
           <div className="projects_heading">
             <Heading_h2 primary>Наши проекты</Heading_h2>
@@ -208,16 +208,18 @@ function App() {
           <Button>Все проекты</Button>
         </div>
       </section>
-      <section className="video">
+      <section className="video" id="our_video">
         <div className="main_video">
           <div className="border_video">
             <Heading_h2>Видео о нашей работе</Heading_h2>
             <p className="text_video">Просто посмотрите, как мы работаем</p>
             <div className="block_video">
-              <button className="button_video">
-                <img src={Video_btn} className="icon_video" />
-                Смотреть видео
-              </button>
+              <a href="https://www.youtube.com/watch?v=JiR7cr3cljU">
+                <button className="button_video">
+                  <img src={Video_btn} className="icon_video" />
+                  Смотреть видео
+                </button>
+              </a>
             </div>
           </div>
           <div className="subscription_video">
@@ -239,26 +241,25 @@ function App() {
           </div>
         </div>
       </section>
-      <footer className="main_footer">
+      <footer className="main_footer" id="our_contact">
         <div className="footer_block">
           <div className="footer_border">
             <div className="contact_info">
               <h3 className="footer_heading">Контактная информация</h3>
               <div className="contact_mail">
                 <img src={List} />
-                <a href="/" className="footer_mail">
-                  test@test.ru
-                </a>
+                <a className="footer_mail">test@test.ru</a>
               </div>
               <div className="contact_mail">
                 <img src={Call} />
-                <a href="/" className="footer_mail">
-                  +8 777 555 66 99
-                </a>
+                <a className="footer_mail">+8 777 555 66 99</a>
               </div>
               <div className="contact_mail">
                 <img src={Envel} />
-                <a href="/" className="footer_mail">
+                <a
+                  href="https://2gis.ru/moscow/search/%D0%A3%D0%BB%D0%B8%D1%86%D0%B0%20%D0%BB%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0%2033"
+                  className="footer_mail"
+                >
                   Москва, Бульвар Ленина 33
                 </a>
               </div>
@@ -273,19 +274,19 @@ function App() {
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="#our_projects" className="footer_mail">
                   Наши проекты
                 </a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="#our_app" className="footer_mail">
                   Наши услуги
                 </a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="#our_contact" className="footer_mail">
                   Контакты
                 </a>
               </div>
@@ -294,52 +295,44 @@ function App() {
               <h3 className="footer_heading">Наши проекты</h3>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
-                  РосНано
-                </a>
+                <a className="footer_mail">РосНано</a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
-                  Сколково
-                </a>
+                <a className="footer_mail">Сколково</a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
-                  Проект “Восток”
-                </a>
+                <a className="footer_mail">Проект “Восток”</a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
-                  ТЭЦ Калининграда
-                </a>
+                <a className="footer_mail">ТЭЦ Калининграда</a>
               </div>
             </div>
             <div className="contact_info">
               <h3 className="footer_heading">Социальные сети</h3>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="https://vk.com" className="footer_mail">
                   VK.com
                 </a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="https://www.instagram.com" className="footer_mail">
                   Instagram
                 </a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="https://www.facebook.com" className="footer_mail">
                   Facebook
                 </a>
               </div>
               <div className="contact_mail">
                 <img src={Vector} />
-                <a href="/" className="footer_mail">
+                <a href="https://twitter.com" className="footer_mail">
                   Twitter
                 </a>
               </div>
