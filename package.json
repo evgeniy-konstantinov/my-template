@@ -1,6 +1,6 @@
 {
-  "homepage": "http://evgeniy-konstantinov.git@github.com/my-template",
-  "name": "my-tamplate",
+  "homepage": "http://evgeniy-konstantinov.github.io/my-template",
+  "name": "my-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
