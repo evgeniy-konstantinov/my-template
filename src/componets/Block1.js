@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from './button/button';
 import Rectangle from '../images/Rectangle.png';
+console.log(Rectangle);
 
 const Section = styled.section`
-  background-image: url(/static/media/Rectangle.afd562e8.png);
+  background-image: url(/my-template/static/media/Rectangle.afd562e8.png);
 
   height: 900px;
   display: flex;

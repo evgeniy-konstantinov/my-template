@@ -228,7 +228,7 @@ function App() {
             <form>
               <input
                 type="email"
-                placeholder="       Ваш e-mail"
+                placeholder="Ваш e-mail"
                 className="email_input"
               ></input>
               <button className="btn">Подписаться</button>
